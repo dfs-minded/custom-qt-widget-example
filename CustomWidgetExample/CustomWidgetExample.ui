@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CustomWidgetExampleClass</class>
+ <widget class="QMainWindow" name="CustomWidgetExampleClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CustomWidgetExample</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="RecipeWidget" name="widget_1" native="true"/>
+      </item>
+      <item>
+       <widget class="RecipeWidget" name="widget_2" native="true"/>
+      </item>
+      <item>
+       <widget class="RecipeWidget" name="widget_3" native="true"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>RecipeWidget</class>
+   <extends>QWidget</extends>
+   <header>recipewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="CustomWidgetExample.qrc"/>
+ </resources>
+ <connections/>
+</ui>
