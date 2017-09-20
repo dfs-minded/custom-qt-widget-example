@@ -15,5 +15,5 @@ void RecipeWidget::Populate(QString header, QString image_path, QString descript
 
 void RecipeWidget::OnClickMeButtonClicked() 
 {
-	int i;
+	// Event handling code here.
 }
