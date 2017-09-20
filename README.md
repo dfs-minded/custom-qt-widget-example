@@ -1,0 +1,1 @@
+# custom-qt-widget-example
